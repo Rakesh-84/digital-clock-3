@@ -1,0 +1,63 @@
+/* <========Common Css Start========> */
+*{padding: 0;
+margin: 0;
+outline: 0;
+box-sizing: border-box;}
+
+.border{border: 4px solid rgb(132, 160, 154);
+border-radius: 15%;}
+.container{ width:1280px;
+height: 100vh;}
+.row{display: flex;
+    margin: auto;
+}
+.flex-dir{flex-direction: column;}
+.align-center{align-items: center;}
+.justify-center{justify-content: center;}
+.clock-box{height:100px ;
+width:100px;
+}
+.justify{justify-content: space-evenly;}
+.text-self{tex}
+.box2{width:400px;
+height: 400px;
+background: rgba(30, 63, 113, 0.40);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+border-radius: 53px;
+background: #654848;
+box-shadow: inset 28px 28px 55px #302323,
+            inset -28px -28px 55px #9a6d6d;
+}
+.text-color{color:rgb(208, 194, 194)}
+.text-center{text-align: center;}
+.f-24{font-size: 34px;}
+.fw-800{font-weight: 800;}
+
+body{background: rgb(195,34,140);
+    background: linear-gradient(0deg, rgba(195,34,140,1) 5%, rgba(189,130,190,1) 90%);}
+
+/* <========Common Css end========> */
+.time{ height: 60px;
+margin-bottom: 60px;
+font-size: 44px;
+font-weight: 800;
+margin-top: 60px;
+color: aliceblue;
+text-transform: uppercase;
+background: rgba( 245, 162, 22, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+border-radius: 53px;
+background: #654848;
+box-shadow: inset 28px 28px 55px #302323,
+            inset -28px -28px 55px #9a6d6d;}
+
+
+
